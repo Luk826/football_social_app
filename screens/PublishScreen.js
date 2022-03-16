@@ -1,10 +1,10 @@
 import React from "react";
 import { Text, View, StyleSheet, Touchable } from "react-native";
 
-const ProfileScreen = () => {
+const PublishScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>ProfileScreen</Text>
+      <Text>PublishScreen</Text>
     </View>
   );
 };
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ProfileScreen;
+export default PublishScreen;
